@@ -3,7 +3,7 @@
 
 # Core source files.
 set(PROJECT_SRC
-        Suffix_Array.cpp
+        Suffix_Array_Modified.cpp #EDITED 
 )
 
 

@@ -46,7 +46,7 @@ set(UBSAN_FLAGS -fsanitize=undefined
 # set(UBSAN_LINK_FLAGS -fuse-ld=lld)
 
 # Extra optimization flags not associated to the `-O` levels.
-set(OPTIMIZE_FLAGS -Ofast -mavx2 -funroll-loops -march=native)
+set(OPTIMIZE_FLAGS -Ofast -funroll-loops)
 
 
 # Accumulate the compile- and link-flags.
